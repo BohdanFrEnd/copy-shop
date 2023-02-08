@@ -198,6 +198,7 @@ input{
     padding-right: 10px;
     margin: 0 auto;
     overflow: scroll;
+    -webkit-overflow-scrolling: touch;
     overflow-x: hidden;
     margin-top: 25px;
     position: relative;
@@ -254,7 +255,7 @@ input{
     height: auto;
 }
 
-/* .result-copyshop__wrapper::-webkit-scrollbar {
+.result-copyshop__wrapper::-webkit-scrollbar {
     width: 8px;
 }
  
@@ -266,7 +267,7 @@ input{
 .result-copyshop__wrapper::-webkit-scrollbar-thumb {
   background-color: #000;
   border-radius: 5px;
-} */
+}
 
 /* 4 footer */
 .footer {
