@@ -107,5 +107,14 @@
             <img src="./img/bizzy-footer.svg" alt="Bizzy" class="footer__bottom-img">
         </div>
     </footer>
+
+    <script>
+        let btnTest = document.querySelector('.generator-form-item__btn');
+        let popUp = document.querySelector('.generator-pop-up');
+        console.log(btnTest);
+        btnTest.addEventListener('click', function(){
+            popUp.classList.toggle('generator-pop-up_active')
+        })
+    </script>
 </body>
 </html>
