@@ -162,6 +162,7 @@ input{
     position: absolute;
     right: 0;
     transition: background .3s ease;
+    -webkit-appearance: none;
 }
 
 .generator-form-item__btn:hover {
@@ -197,9 +198,9 @@ input{
     height: 745px;
     padding-right: 10px;
     margin: 0 auto;
-    overflow: scroll;
     -webkit-overflow-scrolling: touch;
-    /* overflow-x: hidden; */
+    overflow: scroll;
+    overflow-x: hidden;
     margin-top: 25px;
     position: relative;
 }
@@ -255,7 +256,7 @@ input{
     height: auto;
 }
 
-/* .result-copyshop__wrapper::-webkit-scrollbar {
+.result-copyshop__wrapper::-webkit-scrollbar {
     width: 8px;
 }
  
@@ -267,7 +268,7 @@ input{
 .result-copyshop__wrapper::-webkit-scrollbar-thumb {
   background-color: #000;
   border-radius: 5px;
-} */
+}
 
 /* 4 footer */
 .footer {
@@ -420,6 +421,7 @@ input{
     .footer-links {
         border-top: 1px solid #3A3A3A;
         padding: 30px 0;
+        border-left: none;
     }
 
     .footer-list__title {
