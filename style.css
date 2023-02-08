@@ -163,6 +163,7 @@ input{
     right: 0;
     transition: background .3s ease;
     -webkit-appearance: none;
+    -webkit-text-fill-color: #000000;
 }
 
 .generator-form-item__btn:hover {
